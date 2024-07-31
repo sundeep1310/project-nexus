@@ -17,7 +17,7 @@ async function login() {
             localStorage.setItem('token', data.token);
             localStorage.setItem('username', data.username);
             alert('Login successful!');
-            window.location.href = '/';
+            window.location.href = '/login';
         } else {
             console.error('Login error:', data);
             alert(data.error || 'An error occurred during login');
