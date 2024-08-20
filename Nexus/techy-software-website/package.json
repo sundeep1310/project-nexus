@@ -1,0 +1,17 @@
+{
+    "name": "techy-software-website",
+    "version": "1.0.0",
+    "description": "Website for Techy Software",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "sqlite3": "^5.1.7"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
